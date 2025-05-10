@@ -1,8 +1,8 @@
 
 import { PDFDocument, rgb, StandardFonts } from 'pdf-lib';
-import { uploadToCloudinary } from '@/lib/cloudinary';
-import { openai } from '@/lib/openai';
-import { image_gen } from '@/lib/image_gen';
+import { uploadToCloudinary } from '../../lib/cloudinary';
+import { openai } from '../../lib/openai';
+import { image_gen } from '../../lib/image_gen';
 import fetch from 'node-fetch';
 import { Resend } from 'resend';
 
