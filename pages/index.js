@@ -1,5 +1,7 @@
+import CallToAction from '../components/CallToAction';
 export default function Home() {
   return (
+    <CallToAction />
     <div style={{ padding: "2rem", fontFamily: "Arial" }}>
       <h1>Welcome to Divine Sketches ✨</h1>
       <p>Your personalized soulmate sketch will appear here after purchase.</p>
