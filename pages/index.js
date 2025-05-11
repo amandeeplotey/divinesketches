@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <>
       <Header />
+      <Navbar />
       <CallToAction />
       <div style={{ padding: "2rem", fontFamily: "Arial" }}>
         <h1>Welcome to Divine Sketches ✨</h1>
